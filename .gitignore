@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Environment files (contain secrets!)
+.env
+.env.local
+.env.*.local
+
+# Results directory (contains minting records)
+results/
+!results/.gitkeep
+
+# Generated config (contains deployment-specific data)
+data/config.json
+
+# Participant data (contains PII - names, emails, wallets)
+data/participants.json
+data/builders.json
+data/*.backup
+
+# Raw data (contains PII from Luma/Google Sheets)
+raw-data/
+!raw-data/README.md
+
+# Backup files
+*.backup
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

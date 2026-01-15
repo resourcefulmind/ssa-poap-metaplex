@@ -1,0 +1,37 @@
+{
+  "name": "ssa-poap-metaplex",
+  "version": "1.0.0",
+  "description": "SSA POAP Minting System using Metaplex Bubblegum compressed NFTs",
+  "type": "module",
+  "scripts": {
+    "consolidate": "node scripts/consolidate-data.js",
+    "validate": "node scripts/0-validate-data.js",
+    "upload": "node scripts/1-upload-assets.js",
+    "create-trees": "node scripts/2-create-trees.js",
+    "verify": "node scripts/3-verify-builders.js",
+    "mint-participation": "node scripts/4-mint-participation.js",
+    "mint-builders": "node scripts/5-mint-builders.js",
+    "send-emails": "node scripts/6-send-emails.js"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-bubblegum": "^5.0.2",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@metaplex-foundation/umi-uploader-irys": "^1.4.2",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.0",
+    "resend": "^4.8.0"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "poap",
+    "metaplex",
+    "bubblegum",
+    "compressed-nft"
+  ],
+  "author": "Solana Students Africa",
+  "license": "MIT"
+}

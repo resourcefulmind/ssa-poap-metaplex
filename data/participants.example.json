@@ -1,0 +1,16 @@
+{
+  "participants": [
+    {
+      "name": "John Doe",
+      "wallet": "YourSolanaWalletAddressHere1234567890abcdef",
+      "email": "john@example.com",
+      "campus": "UNILAG"
+    },
+    {
+      "name": "Jane Smith",
+      "wallet": "AnotherSolanaWalletAddressHere1234567890abc",
+      "email": "",
+      "campus": "FUNAAB"
+    }
+  ]
+}
